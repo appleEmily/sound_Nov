@@ -13,18 +13,30 @@ class ViewController: UIViewController {
     
     var audioplayer: AVAudioPlayer!
 
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func tap(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "taiko", ofType: "mp3")!
+    @IBAction func tapBeginButton() {
+        let path = Bundle.main.path(forResource: "guitar", ofType: "mp3")!
         let url = URL(fileURLWithPath: path)
-        //取得した音楽をurlに変換している。
         audioplayer = try! AVAudioPlayer(contentsOf: url)
         audioplayer.play()
+        button.setImage(UIImage(named: "cymbal"), for: .normal)
     }
+    
+    @IBAction func tapFinish(_ sender: Any) {
+        
+        audioplayer.stop()
+        button.setImage(UIImage(named: "guitar"), for: .normal)
+    }
+    
+    
+    
+    
     
 
 

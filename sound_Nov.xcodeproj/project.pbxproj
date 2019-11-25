@@ -15,6 +15,7 @@
 		A132BE2F2382E3E8000849C6 /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE272382E3E8000849C6 /* guitar.png */; };
 		A132BE302382E3E8000849C6 /* taiko.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE282382E3E8000849C6 /* taiko.png */; };
 		A132BE312382E3E8000849C6 /* cymbal.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE292382E3E8000849C6 /* cymbal.png */; };
+		A132BE342382E742000849C6 /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = A132BE332382E742000849C6 /* haikei.png */; };
 		A19D8EA5237BC02C00735CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D8EA4237BC02C00735CF2 /* AppDelegate.swift */; };
 		A19D8EA7237BC02C00735CF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D8EA6237BC02C00735CF2 /* SceneDelegate.swift */; };
 		A19D8EA9237BC02C00735CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19D8EA8237BC02C00735CF2 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		A132BE272382E3E8000849C6 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar.png; sourceTree = "<group>"; };
 		A132BE282382E3E8000849C6 /* taiko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taiko.png; sourceTree = "<group>"; };
 		A132BE292382E3E8000849C6 /* cymbal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cymbal.png; sourceTree = "<group>"; };
+		A132BE332382E742000849C6 /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = "<group>"; };
 		A19D8EA1237BC02C00735CF2 /* sound_Nov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sound_Nov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19D8EA4237BC02C00735CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A19D8EA6237BC02C00735CF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 			path = sound;
 			sourceTree = "<group>";
 		};
+		A132BE322382E742000849C6 /* sound_advance */ = {
+			isa = PBXGroup;
+			children = (
+				A132BE332382E742000849C6 /* haikei.png */,
+			);
+			path = sound_advance;
+			sourceTree = "<group>";
+		};
 		A19D8E98237BC02C00735CF2 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +147,7 @@
 				A19D8EAD237BC02F00735CF2 /* Assets.xcassets */,
 				A19D8EAF237BC02F00735CF2 /* LaunchScreen.storyboard */,
 				A19D8EB2237BC02F00735CF2 /* Info.plist */,
+				A132BE322382E742000849C6 /* sound_advance */,
 				A132BE212382E3E8000849C6 /* sound */,
 			);
 			path = sound_Nov;
@@ -268,6 +279,7 @@
 				A132BE2B2382E3E8000849C6 /* guitar.mp3 in Resources */,
 				A132BE2C2382E3E8000849C6 /* triangle.png in Resources */,
 				A132BE2D2382E3E8000849C6 /* triangle.mp3 in Resources */,
+				A132BE342382E742000849C6 /* haikei.png in Resources */,
 				A132BE302382E3E8000849C6 /* taiko.png in Resources */,
 				A19D8EB1237BC02F00735CF2 /* LaunchScreen.storyboard in Resources */,
 				A132BE2F2382E3E8000849C6 /* guitar.png in Resources */,
